@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Geist+Mono:wght@100..900&family=Oswald:wght@200..700&family=Protest+Revolution&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.pagination-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pagination>input {
+    width: 20vw;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.pagination>li {
+    padding: 8px;
+}
+
+.pagination>li>button {
+    padding: 8px 16px 8px 18px;
+}
+
+.active {
+    font-size: 24px;
+    margin-left: 8px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(222, 217, 217);
+    color: rgb(245, 115, 10);
+}
+
+.output-container {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.output-box {
+    width: calc(25% - 26px);
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.box>img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.box>li {
+    color: black;
+}
+
+.box>li>h1 {
+    padding: 0;
+    margin: 5px 0px 0px 20px;
+    font-family: "Bokor", system-ui;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+.box>p {
+    margin: 0px 0px 15px 20px;
+    ;
+    padding: 0;
+    font-size: 1.5rem;
+    color: rgb(129, 126, 126);
+    font-family: "Protest Revolution", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pagination-button {
+    font-size: 24px;
+    margin-left: 8px;
+    color: rgb(186, 87, 7);
+    font-weight: bold;
+    background-color: rgb(137, 145, 161);
+    border-radius: 10px;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Oswald:wght@200..700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(137, 145, 161);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    border: 2px solid rgb(206, 109, 30);;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    max-width: fit-content;
+    margin: auto;
+    color: rgb(222, 118, 33);
+    background-color: rgb(84, 91, 105);
+}
+.login > h1{
+    font-size: 3em;
+}
+.myform{
+    padding: 20px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myform > p{
+    font-size: 2rem;
+}
+.myform > label > input{
+    padding: 16px 8px 16px 8px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 4px;
+    width: 20vw;
+}
+.myform > button{
+    padding: 10px 30px 10px 30px;
+    font-size: 1.5rem;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    color: rgb(222, 118, 33);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
